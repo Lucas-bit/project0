@@ -1,2 +1,3 @@
-# project0
-Havard Python Class First project
+# Project 0
+
+Web Programming with Python and JavaScript
