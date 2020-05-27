@@ -17,3 +17,20 @@
 .patagoniaSky{
     max-width: 100%;
 }
+
+.chaltenContainer{
+    background-color: aliceblue;
+    margin: 20px;
+    border: 1px solid #0097bc;
+}
+
+.chaltenHeader{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.icon{
+    width: 20px;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
