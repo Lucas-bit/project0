@@ -50,7 +50,7 @@ body{
 }
 
 .whyPtag{
-    text-align: left;
+    text-align: center;
 }
 
 /*====Torres=====*/
@@ -69,4 +69,87 @@ body{
 
 .torresDescription{
     margin: 20px
+}
+
+/*=====Table=====*/
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 5px lightgrey;
+    
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+/*=====*/
+
+
+@media only screen and (min-width: 601px){
+    #guanacosMini{
+        display: none;
+    }
+
+    #torresMini{
+        display: none
+    }
+
+    #ushuaiaMini{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #guanacosLarge {
+        display: none
+    }
+
+    #guanacosMini{
+        display: block;
+        width: 90%;
+        margin: auto !important;
+        margin-bottom: 20px !important;
+        box-shadow: 0px 0px 10px 5px lightgrey;
+    }
+
+    #torresLarge{
+        display: none
+    }
+
+    #torresMini{
+        display: block;
+        width: 90%;
+        margin: auto !important;
+        margin-bottom: 20px !important;
+        box-shadow: 0px 0px 10px 5px lightgrey;
+
+    }
+
+    #ushuaiaLarge{
+        display: none;
+    }
+
+    #ushuaiaMini{
+        display: block;
+        width: 90%;
+        margin: auto !important;
+        margin-bottom: 20px !important;
+        box-shadow: 0px 0px 10px 5px lightgrey;
+    }
+
+    p{
+        margin: 20px
+    }
 }
